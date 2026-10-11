@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Nav {
@@ -61,22 +62,39 @@ header strong {
 
 .head-Hero {
     font-size: 60px;
+    /* margin:0px;
+    padding:0px ; */
+
 }
 
 .part-left-sh {
     margin-top: 50px;
     margin-left: 80px;
+    margin-bottom: 30px;
 }
 
 .life {
     color: #034BFF;
+    font-size: 60px;
+    font-weight: bold;
+    /* margin-top: 0px; */
+    
 
 }
 
 .symbole {
     color: #C7F64A;
     margin-left: 30px;
+    font-size: 60px;
+    font-weight: bold;
+
 }
+/* .campus-life{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+} */
 
 .text-hero {
     display: flex;
@@ -170,15 +188,44 @@ main {
     color: whitesmoke;
 }
 .statistiques{
-    background-color: #B8C9CF;
+    background-color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    color: grey;
+    
 }
 .stati-1{
-    display:felx;
-    flex-deriction:column;
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+
+.test{
+    border-right: 2px solid gray;
+    height: 30px;
+}
+.stati-1-part-left{
+    font-size:40px;
+    color: blue;
+    
+    font-weight: bold;
+    /* width:50px; */
+    /* font-weight: bold; */
+}
+.stati-1-part-right{
+    font-weight: bolder;
+    
 }
 
 footer {
     background-color: aqua;
+}
+
+.number-1000{
+    /* width: 180p; */
+    /* height: 31px; */
+    font-size:40px;
+    color:#0A1222;
 }
